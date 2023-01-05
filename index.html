@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Band</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="/assets/img/icon-de-logo.jpg" type="image/x-icon" />
+        <link rel="stylesheet" href="/assets/css/style.css">
+        <link rel="stylesheet" href="/assets/css/grid.css">
+        <link rel="stylesheet" href="/assets/font/themify-icons/themify-icons.css">
+    </head>
+    <body>
+      <div id="main">
+        <!-- Begin: Main-pc -->
+        <div id="main-pc">
+            <!-- Begin: Main-pc-header -->
+            <div id="header">
+                <div class="row">
+                    <div class="col">
+                        <ul class="header__nav font-16">
+                            <li><a href="">Home</a></li>
+                            <li><a href="#band">Band</a></li>
+                            <li><a href="#tour">Tour</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                            <li>
+                                <a href="#more">More
+                                    <i class="ti-angle-down"></i>
+                                </a>
+                                <ul class="header__sub-nav">
+                                    <li><a href="">Merchandise</a></li>
+                                    <li><a href="">Extras</a></li>
+                                    <li><a href="">Media</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <div class="header__logo">
+                            <i class="header__logo--search ti-search font-24"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End: Main-pc-header -->
+            <!-- Begin: Main-pc-slider -->
+            <div id="slider">
+                <div class="slider__section">
+                    <button class="slider__btn font-32 slider__btn--prev" data-slide-direction="prev">
+                        <i class="ti-arrow-left"></i>
+                        <!-- &#8592 -->
+                    </button>
+                    <button class="slider__btn font-32 slider__btn--next" data-slide-direction="next">
+                        <i class="ti-arrow-right"></i>
+                        <!-- &#8594 -->
+                    </button>
+                    <ul class="slider__ul">
+                        <li class="slider__li" data-active-slide>
+                            <img src="/assets/img/chicago.jpg" alt="Chicago">
+                        </li>
+                        <li class="slider__li">
+                            <img src="/assets/img/la.jpg" alt="Los Angeles"> 
+                        </li>
+                        <li class="slider__li">
+                            <img src="/assets/img/ny.jpg" alt="New York">
+                        </li>
+                    </ul>
+                    <div class="slider__title font-16">
+                        <div data-active-slide>
+                            <h3></h3>
+                            <p></p>
+                        </div>
+                        <div>
+                            <h3></h3>
+                            <p></p>
+                        </div>
+                        <div>
+                            <h3></h3>
+                            <p></p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <!-- End: Main-pc-slider -->
+            <!-- Begin: Main-pc-content -->
+            <div id="content">
+                <div id="band" class="content__about content--section">
+                    <h2 class="content--heading font-32">
+                        THE BAND
+                    </h2>
+                    <p class="content--sub-heading font-16">
+                        We love music
+                    </p>
+                    <p class="content__about-text font-16">
+                        We have created a fictional band website. 
+                        Lorem ipsum dolor sit amet, consectetur 
+                        adipiscing elit, sed do eiusmod tempor incididunt 
+                        ut labore et dolore magna aliqua. Ut enim ad minim 
+                        veniam, quis nostrud exercitation ullamco laboris nisi
+                        ut aliquip ex ea commodo consequat. Duis aute irure 
+                        dolor in reprehenderit in voluptate velit esse cillum 
+                        dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                        cupidatat non proident, sunt in culpa qui officia deserunt 
+                        mollit anim id est laborum consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididunt ut labore et dolore magna 
+                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                    </p>
+                    <div class="row about__member-list">    
+                        <div class="col c-4 ">
+                            <div class="about__member-name">Name</div>
+                            <img src="/assets/img/Name.jpg" class="member-img" alt="">
+                        </div>
+                        <div class="col c-4 ">
+                            <div class="about__member-name">Name</div>
+                            <img src="/assets/img/Name.jpg" class="member-img" alt="">
+                        </div>
+                        <div class="col c-4 ">
+                            <div class="about__member-name">Name</div>
+                            <img src="/assets/img/Name.jpg" class="member-img" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div id="tour" class="content__tour--full-width">
+                    <div class="content__tour content--section">
+                        <h2 class="content--heading font-32">TOUR DATES</h2>
+                        <p class="content--sub-heading font-16">Remember to book your tickets!</p>
+                        <ul class="content__tour-time font-16">
+                            <li>September <span class="sold-out">Sold out</span></li>
+                            <li>October <span class="sold-out">Sold out</span></li>
+                            <li>November <span class="badge">3</span></li>
+                        </ul>
+                        <div class="tour-places">
+                            <div class="row">
+                                <div class="col c-4">
+                                    <div class="tour-places__col">
+                                        <img src="/assets/img/New York.jpeg" alt="New York">
+                                        <div class="tour-places__title">
+                                            <h3 class="tour-places__adress">New York</h3>
+                                            <div class="tour-places__time">Fri 27 Nov 2016</div>
+                                            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                            <button class="tour__buy js__btn">Buy Tickets</button>
+                                        </div>
+                                    </div>
+                                    <div class="tour-places__img">
+                                    </div>
+                                </div>
+                                <div class="col c-4 tour-places__col">
+                                    <div class="tour-places__img">
+                                        <img src="/assets/img/Paris.jpeg" alt="Paris">
+                                    </div>
+                                    <div class="tour-places__title">
+                                        <h3 class="tour-places__adress">New York</h3>
+                                        <div class="tour-places__time">Fri 27 Nov 2016</div>
+                                        <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                        <button class="tour__buy js__btn">Buy Tickets</button>
+                                    </div>
+                                </div>
+                                <div class="col c-4 tour-places__col">
+                                    <div class="tour-places__img">
+                                        <img src="/assets/img/Sanfansico.jpeg" alt="Sanfrancisco">
+                                    </div>
+                                    <div class="tour-places__title">
+                                        <h3 class="tour-places__adress">New York</h3>
+                                        <div class="tour-places__time">Fri 27 Nov 2016</div>
+                                        <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                        <button class="tour__buy js__btn">Buy Tickets</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="contact" class="content__contact content--section">
+                    <h2 class="content--heading font-32">CONTACT</h2>
+                    <p class="content--sub-heading font-16">Fan? Drop a note!</p>
+                    <div class="content__sub-contact">
+                        <div class="row">
+                            <div class="col c-6">
+                                <ul class="sub-contact__left" >
+                                    <li>
+                                        <i class="sub-contact__icon ti-location-pin"></i>Chicago, US
+                                    </li>
+                                    <li>
+                                        <i class="sub-contact__icon ti-headphone-alt"></i>Phone: +00 151515
+                                    </li>
+                                    <li>
+                                        <i class="sub-contact__icon ti-email"></i>Email: mail@mail.com
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col c-6">
+                                <form action="">
+                                    <div class="row">
+                                        <div class="col c-6">
+                                            <input class="sub-contact__label font-16" type="text" required  placeholder="Name">
+                                        </div>
+                                        <div class="col c-6">
+                                            <input class="sub-contact__label font-16" type="email" required  placeholder="Email">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col c-12">
+                                            <input class="sub-contact__label font-16" type="text" required  placeholder="Message">
+                                            <button type="submit" class="sub-contact__btn font-16 ">Send</button>
+                                            <!-- <input type="submit" class="sub-contact__btn font-16 " value="Send"> -->
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+             <!-- End: Main-pc-content -->
+            <!-- Begin: Main-pc-footer -->
+            <div id="footer">
+                <div class="footer__image">
+                    <img src="/assets/img/img-footer.jpeg" alt="">
+                </div>
+    
+                <div class="footer__adress">
+                    <h3>Powered by: <a href="">MT</a></h3>
+                </div>
+            </div> 
+             <!-- End: Main-pc-footer -->
+            <!-- Begin: Main-pc-modal --> 
+            <div class="modal js__modal">
+                <div class="modal__container js__modal-container">
+                    <!-- Begin:Header-Modal  -->
+                    <div class="modal__close js__modal-close">
+                        <i class="ti-close"></i>
+                    </div>
+                    <header class="modal__header">
+                        <i class="ti-bag"></i>
+                        Tickets
+                    </header>
+                    <form class="modal__body">
+                        <label for="" class="modal__label">
+                            <i class="ti-shopping-cart"></i>
+                            Tickets, $15 per person
+                        </label>
+                        <input type="text" placeholder="How many?" required name="" class="modal__input font-16">
+                        <label for="" class="modal__label">
+                            <i class="ti-user"></i>
+                            Send To
+                        </label>
+                        <input type="email" placeholder="Enter email" required name="" class="modal__input font-16">
+                        <button id="modal__buy-tickets">
+                            Pay<i class="ti-check"></i>
+                        </button>
+                    </form>
+                    <footer class="modal__footer">
+                        <p >Need<a href="">help?</a></p>
+                    </footer>
+                    <!-- End: Content-Modal  -->
+                </div>
+            </div>
+             <!-- End: Main-pc-modal -->
+        </div>
+        <!-- End: Main-pc -->
+
+        <!-- Begin: Main-mobile -->
+        <div id="main-mobile">
+            
+        </div>
+        <!-- End: Main-mobile -->
+      </div>
+      <script src="/main.js"></script>
+    </body>
+</html>
